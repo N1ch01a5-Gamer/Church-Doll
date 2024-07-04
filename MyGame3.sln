@@ -1,0 +1,11 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame3.Windows", "MyGame3.Windows\MyGame3.Windows.csproj", "{4A0FBD81-2AF1-4BD2-A952-F781EF869513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame3", "MyGame3\MyGame3.csproj", "{BC1E998D-738C-4DD0-A3E6-7D79B44D353F}"
+EndProject
+Global
+EndGlobal

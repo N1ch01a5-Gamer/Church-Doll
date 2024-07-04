@@ -1,0 +1,8 @@
+!Texture
+Id: 2fa425fc-56ca-4936-b78a-457881dbd109
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/skybox_texture_hdr.dds
+Type: !ColorTextureType
+    UseSRgbSampling: false
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
