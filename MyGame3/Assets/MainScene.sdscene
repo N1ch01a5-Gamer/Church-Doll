@@ -11,6 +11,7 @@ Hierarchy:
         - ref!! f7e98725-2b8c-4dd1-aaa5-ae45285bc8dd
         - ref!! e257a62c-7d7b-470a-808f-6d4e5cd0d8c4
         - ref!! 6bb1d37b-26b5-40d3-904f-47201b2fc9aa
+        - ref!! b2bd4020-ff7e-4dcb-bef7-6078d641355a
     Parts:
         -   Entity:
                 Id: 6bb1d37b-26b5-40d3-904f-47201b2fc9aa
@@ -25,6 +26,20 @@ Hierarchy:
                     85dbd9c1083e5cbdb883c9ee52e2c765: !ModelComponent
                         Id: 1654889e-0306-4aad-90bc-00d829bbdf20
                         Model: 28b9e332-d99c-447c-b768-289ff8592c67:Sphere
+                        Materials: {}
+        -   Entity:
+                Id: b2bd4020-ff7e-4dcb-bef7-6078d641355a
+                Name: Cube
+                Components:
+                    222a5996e9394f93189d9d99a8200462: !TransformComponent
+                        Id: 38b442d9-8ce7-4a04-8ef9-5ba226c3d51a
+                        Position: {X: 1.6519527, Y: 0.5, Z: -0.53667784}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c88f13e8afd3227310328a72d51bd1bd: !ModelComponent
+                        Id: 9defe3b4-faef-400e-beb6-7ef65cbeb2fe
+                        Model: c16f3c80-6fa4-4eae-858b-170b50da6a37:Cube
                         Materials: {}
         -   Entity:
                 Id: bfeb6fc8-1daa-410a-a44e-bf4bff636512
