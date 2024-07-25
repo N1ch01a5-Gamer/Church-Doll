@@ -12,7 +12,23 @@ Hierarchy:
         - ref!! e257a62c-7d7b-470a-808f-6d4e5cd0d8c4
         - ref!! 6bb1d37b-26b5-40d3-904f-47201b2fc9aa
         - ref!! b2bd4020-ff7e-4dcb-bef7-6078d641355a
+        - ref!! 35e52635-167d-416b-b047-349b81881431
+        - ref!! d6edb2b5-c1e0-40e4-99b5-f3068228b8a6
     Parts:
+        -   Entity:
+                Id: 35e52635-167d-416b-b047-349b81881431
+                Name: Cube
+                Components:
+                    ea85dac03947acf73652b10b376bd256: !TransformComponent
+                        Id: 9d04d2fd-f6b5-4ec2-b713-d5fe3a913d7f
+                        Position: {X: -1.9047871, Y: 0.48183513, Z: 3.2779317}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    425d845e5581dff7ca7439a4583076a5: !ModelComponent
+                        Id: 9d9a7f78-ffb7-49fa-ba9e-39e04358ea9a
+                        Model: c16f3c80-6fa4-4eae-858b-170b50da6a37:Cube
+                        Materials: {}
         -   Entity:
                 Id: 6bb1d37b-26b5-40d3-904f-47201b2fc9aa
                 Name: Sphere
@@ -90,6 +106,20 @@ Hierarchy:
                                 ComputeTransmittance: false
                                 BiasParameters: {}
                         Intensity: 20.0
+        -   Entity:
+                Id: d6edb2b5-c1e0-40e4-99b5-f3068228b8a6
+                Name: Cube
+                Components:
+                    b58981fed8d3c5354e8ade0eb3a3762e: !TransformComponent
+                        Id: 817961f6-c7dc-46ac-ac3e-e6547f357c60
+                        Position: {X: -3.696426, Y: 0.3067492, Z: -3.198172}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fba797b1a89d3aad3621fd283e0c4c7a: !ModelComponent
+                        Id: 829421be-9529-4323-9e05-3c28481d1f0b
+                        Model: c16f3c80-6fa4-4eae-858b-170b50da6a37:Cube
+                        Materials: {}
         -   Entity:
                 Id: e257a62c-7d7b-470a-808f-6d4e5cd0d8c4
                 Name: Ground
