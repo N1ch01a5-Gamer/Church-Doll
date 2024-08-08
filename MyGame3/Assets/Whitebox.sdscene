@@ -1,0 +1,334 @@
+!SceneAsset
+Id: 9d626502-aa06-4f2a-8a21-02b70a30ae67
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 8a65ca48-bafb-4ccd-b677-45ffc43461db
+        - ref!! b1081d17-d354-4b3e-8fdb-647e7d9a5429
+        - ref!! f236e9ff-35c2-461d-a656-0c73a33418ab
+        - ref!! fec01e30-e0ae-459f-a6bc-ece7f5ab8b80
+        - ref!! 60632ed0-4416-4d69-92c6-5f96fb3bdf1f
+        - ref!! 603d9bcd-b56e-4c8d-af29-f04fcd764ade
+        - ref!! 999f37bf-ffad-4fc1-8aac-be01db0f9549
+        - ref!! ba1a99a4-c8f1-48eb-a7bd-2334a491e211
+        - ref!! b6ccd2b3-babe-4f61-a329-2fe5a1b2e18d
+        - ref!! d0f08f70-131a-4c46-9fcb-27ec32e554cc
+        - ref!! 9e198a46-4a60-46bd-b770-20e4b35ea9f4
+        - ref!! 9c3e99c6-3ddd-4f78-a2f4-afb00732a2b6
+        - ref!! 6c923c50-f07d-4a74-b5e6-f2e9fc5f680f
+        - ref!! 70509bae-2ab8-4e91-a572-585f53420399
+        - ref!! 18f998b6-60f7-4674-af9e-6ec5874ca16a
+        - ref!! a80f7feb-5725-40ae-bbc3-3ede4c97ee93
+        - ref!! 7e19943b-895a-457a-8d18-fc68b653a5b9
+        - ref!! a3b056ac-1b8b-4688-a5ef-3491f1bd1d36
+        - ref!! 1c492d28-07ee-49b1-8fa4-7a25a8c968aa
+    Parts:
+        -   Folder: level/Benches
+            Entity:
+                Id: 18f998b6-60f7-4674-af9e-6ec5874ca16a
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 644032cf-035d-43a0-9c98-8625d4f0f0e8
+                        Position: {X: -11.866323, Y: 0.97697306, Z: 5.9459248}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: c2cc6644-c468-4cb3-be8b-3f41d50a94b5
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level
+            Entity:
+                Id: 1c492d28-07ee-49b1-8fa4-7a25a8c968aa
+                Name: Ground
+                Components:
+                    7ffd31cecaa392e19241309b0122e7a5: !TransformComponent
+                        Id: d2853596-6dd4-42b1-802a-9e94c35e2b42
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.0, Y: 1.0, Z: 3.0}
+                        Children: {}
+                    941aa02c90ef31842a027fb77c74264f: !ModelComponent
+                        Id: 4da9ef16-fe39-444d-bb9f-3d1cffe7a8d4
+                        Model: 54e53049-2061-4b0e-bee5-6058aa78dcc9:Ground
+                        Materials: {}
+        -   Folder: level/Benches
+            Entity:
+                Id: 603d9bcd-b56e-4c8d-af29-f04fcd764ade
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: cf23fff5-af37-4984-b7bd-94bd2b4b9f10
+                        Position: {X: 3.994195, Y: 0.97697306, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: 73dde58a-7d57-46e3-af7f-d692483be761
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level/Benches
+            Entity:
+                Id: 60632ed0-4416-4d69-92c6-5f96fb3bdf1f
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 447ab640-938b-4808-a676-3e591d9b63c8
+                        Position: {X: -4.141712, Y: 0.97697306, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: 69fb86a2-cff6-4fde-9416-aacf5d6d6385
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level/Benches
+            Entity:
+                Id: 6c923c50-f07d-4a74-b5e6-f2e9fc5f680f
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: cd7403f3-5865-4125-bedd-99826ab158ff
+                        Position: {X: -4.141712, Y: 0.97697306, Z: 5.9459248}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: e58d9c70-30d0-451a-8335-a82f1487bbad
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level/Benches
+            Entity:
+                Id: 70509bae-2ab8-4e91-a572-585f53420399
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 29a2718a-bf01-4668-a35a-3a9e23517499
+                        Position: {X: 3.994195, Y: 0.97697306, Z: 5.9459248}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: 8873a409-ce28-4134-99cd-2113da643337
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level
+            Entity:
+                Id: 7e19943b-895a-457a-8d18-fc68b653a5b9
+                Name: Stage
+                Components:
+                    36e3df584281be829825711ba2ee5690: !TransformComponent
+                        Id: d1fac512-f201-4335-b316-67aea7bb3be8
+                        Position: {X: -0.36355484, Y: 0.28805065, Z: -10.241901}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 30.0, Y: 1.0, Z: 8.0}
+                        Children: {}
+                    4b69fe444a57d74ca756440ec856221a: !ModelComponent
+                        Id: 3462710b-62cb-45fe-857f-c786e28e4054
+                        Model: c16f3c80-6fa4-4eae-858b-170b50da6a37:Cube
+                        Materials: {}
+        -   Entity:
+                Id: 8a65ca48-bafb-4ccd-b677-45ffc43461db
+                Name: Camera
+                Components:
+                    6e34c3c1fd79a2197ce275ce9499e32d: !TransformComponent
+                        Id: 67565b07-98ae-42a4-af96-8a5186034129
+                        Position: {X: 2.6, Y: 0.6, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.82903755, Z: 0.0, W: 0.5591929}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dca974fea18ad623427c52cee0dc34e5: !CameraComponent
+                        Id: 93ac878f-d0b4-4bf5-b877-972ad7009f26
+                        Name: null
+                        Projection: Perspective
+                        Slot: aa5af64f-b7dd-44e7-81ef-fbbac5d64300
+                    6dec9fd20a080680ae5873f9f3204484: !MyGame.BasicCameraController,MyGame
+                        Id: 7fc2927c-4d47-4cc8-bfac-09c51d53f71d
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Folder: level/Benches
+            Entity:
+                Id: 999f37bf-ffad-4fc1-8aac-be01db0f9549
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 551b084e-46a8-4f57-8499-914b1cc7b655
+                        Position: {X: -11.866323, Y: 0.97697306, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: ffb9b3c6-1f1a-4bab-99cf-9e3481bf9772
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level/Benches
+            Entity:
+                Id: 9c3e99c6-3ddd-4f78-a2f4-afb00732a2b6
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 801a19f6-b0b2-400f-9576-1e8fa1e422cc
+                        Position: {X: 11.718806, Y: 0.97697306, Z: 5.9459248}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: a090d9f5-7f04-4f3c-990e-2d8ce1608c8f
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level/Benches
+            Entity:
+                Id: 9e198a46-4a60-46bd-b770-20e4b35ea9f4
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 7ab65eb5-6a2b-44f0-a646-71cf732c191c
+                        Position: {X: -11.866323, Y: 0.97697306, Z: 11.307528}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: ee7d5897-0126-4b2f-a2cb-128b5f8f042b
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level
+            Entity:
+                Id: a3b056ac-1b8b-4688-a5ef-3491f1bd1d36
+                Name: Sphere
+                Components:
+                    98b858753e0c12b9fd94f9150049905e: !TransformComponent
+                        Id: 1ac29ccd-cb0b-4e2d-8625-b46c6e4a2307
+                        Position: {X: -0.13831389, Y: 0.75531465, Z: 8.212304}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c14d117c0e4950ee8b25f56500b8c406: !ModelComponent
+                        Id: 0b6f76aa-ce1f-488b-8e3c-62216c23ff00
+                        Model: 28b9e332-d99c-447c-b768-289ff8592c67:Sphere
+                        Materials: {}
+        -   Folder: level
+            Entity:
+                Id: a80f7feb-5725-40ae-bbc3-3ede4c97ee93
+                Name: Podium
+                Components:
+                    16864bfc4df4d94a13ad28d60e9d4b9f: !TransformComponent
+                        Id: d2126805-49df-4208-af09-070bdcd54b23
+                        Position: {X: 0.0, Y: 1.7887403, Z: -8.126316}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 2.0, Z: 1.0}
+                        Children: {}
+                    55f99d1d4c1cc8d43f6ed7b58eb3a9e7: !ModelComponent
+                        Id: 170bff66-ce1a-4bf5-b20f-2bf03e4125b9
+                        Model: 5af27dd5-247f-4342-926b-442fcb49a2f0:Cube_2
+                        Materials: {}
+        -   Entity:
+                Id: b1081d17-d354-4b3e-8fdb-647e7d9a5429
+                Name: Directional light
+                Components:
+                    900407262aa77f3c417796f134513d1c: !TransformComponent
+                        Id: f0899966-05f0-4805-9c30-72eaad4df4c9
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 1.131334E-08, Y: -0.9659258, Z: -0.25881904, W: -4.222196E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    79162fcd81b4a861b17f7f81e44e23d4: !LightComponent
+                        Id: afb3f5ec-00a0-4e35-bd4c-0f9146361c16
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow: !LightDirectionalShadowMap
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 20.0
+        -   Folder: level/Benches
+            Entity:
+                Id: b6ccd2b3-babe-4f61-a329-2fe5a1b2e18d
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 7cb9f727-9ce4-43b9-9498-c3cf0143ef9b
+                        Position: {X: -4.141712, Y: 0.97697306, Z: 11.307528}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: 5f195d28-3abf-4f29-85aa-5ad7ff507457
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level/Benches
+            Entity:
+                Id: ba1a99a4-c8f1-48eb-a7bd-2334a491e211
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 7c45835a-18bf-45ef-9087-6a661f64c149
+                        Position: {X: 11.718806, Y: 0.97697306, Z: 11.307528}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: 5018878e-ba02-42c1-863c-0de61eadb130
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Folder: level/Benches
+            Entity:
+                Id: d0f08f70-131a-4c46-9fcb-27ec32e554cc
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 1739a7cc-8ef6-43d2-9f31-23ac14248823
+                        Position: {X: 3.994195, Y: 0.97697306, Z: 11.307528}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: 1ca36e1c-6316-4425-92bd-1d32b9092f5e
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
+        -   Entity:
+                Id: f236e9ff-35c2-461d-a656-0c73a33418ab
+                Name: Skybox
+                Components:
+                    cd73653724c102a52b688c25214eff37: !TransformComponent
+                        Id: 336cf512-bb44-4ad7-9cf3-16bfcadca08c
+                        Position: {X: 0.0, Y: 2.0, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    bbc270cba3514914df8ddca48b7de46e: !BackgroundComponent
+                        Id: 44a315ff-e51f-4def-9a77-705bd9133dbc
+                        Texture: 2fa425fc-56ca-4936-b78a-457881dbd109:Skybox texture
+                    e96232f6a4f7ac2899b615ea9a12c515: !LightComponent
+                        Id: dba4e63c-e294-456d-a655-27699e970995
+                        Type: !LightSkybox
+                            Skybox: 5a0c9624-b5ca-4f68-95a0-694ec5ffd2b7:Skybox
+        -   Folder: level/Benches
+            Entity:
+                Id: fec01e30-e0ae-459f-a6bc-ece7f5ab8b80
+                Name: Benches
+                Components:
+                    39fecda57ce182aea6df4a926893d0c7: !TransformComponent
+                        Id: 9128ba77-2d3d-41fe-be51-b83d3b8910a4
+                        Position: {X: 11.718806, Y: 0.97697306, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.5, Y: 2.0, Z: 1.5}
+                        Children: {}
+                    2c8cf5a0bbe8f7c7453058b9697f1899: !ModelComponent
+                        Id: bf5bdb4a-647e-428a-93f9-a9608de7de59
+                        Model: db427b50-1a04-49c8-903e-d7d4da8bf04f:Cube_3
+                        Materials: {}
